@@ -1,0 +1,34 @@
+# Inception
+
+Q1: what is emmet ?
+Ans: emmet is a software or plugin that vscode uses. It basically generates the code for us by using abbreviations in vscode.
+Example: when we type HTML 5 in vscode it generates the boiler plate code(skeleton code for HTML) for us. 
+
+Q2: Difference b/w library and framework ?
+ans: Library is something that can be applied on the particular or some part of code in a program.
+libraries target a specific functionality, while a framework tries to provide everything required to develop a complete application.
+
+Q3: what is CDN and why do we use it ?
+Ans: CDN stands for Content Delivery Networks. It is interconnected network of servers.so, basically when user visits a website then, data of the website's server needs to travel to across the internet to reach user's computer.
+If user is located far away from that server it may take time to load large files (like videos and images).
+So, instead data is stored on CDN servers which are geographically closer to user and reaches the user's coputer much faster.
+- use of CDN reduce the latency.
+- use of CDN reduce the delay in communication.
+
+Q4: Why React is known as React ?
+ans: React is known as React because react is developed for developers to  make their life easy, so that they can make user interfaces fast and responsive or we can say "Reactive".
+The library is basically designed to "React" to the changes in data. When data changes in React application, then the components
+that depend on that data are automatically updated. That is why react is known as React.
+
+Q5: Difference between React And ReactDOM ?
+ans: React is a javascript library which is used for building user interfaces. It is a core of react.
+ReactDOM is js library which allows react to interact with the DOM. REactDOM acts as a bridge between React and the browser's DOM.
+
+Q6: what is diff b/w react.development.js and react.production.js via CDN ?
+ans: In development mode, we can enable and utilize React developer tools, debugging environment attached with source code. 
+We can utilize various functionalities such as Hot Module Replacement, diagnostics so that development environment will help to debug code.
+so basically react.development.js is used in the deveopmnt process while developing an application.
+
+In production mode, compression and minification of Javascript and other resources happens to reduce size of the code 
+which is not the case when it comes to development mode. Performance will be much faster in production mode when 
+compared to development mode. So basically it is used for production build.(before actually pushing code to production).
